@@ -4,13 +4,13 @@ import {
   RecoilRoot
 } from 'recoil';
 
-import TodoList from "./components/TodoList";
+import CurrentUserInfo from './components/CurrentUserInfo/CurrentUserInfo'
 
 function App() {
   return (
     <div className="App">
       <RecoilRoot>
-        <TodoList/>
+        <CurrentUserInfo/>
       </RecoilRoot>
     </div>
   );
