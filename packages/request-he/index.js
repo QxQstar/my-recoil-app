@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { add } from 'math-he';
+import { addNum } from 'math-he';
 
-console.log(add(2,3))
+console.log(addNum(2,3))
 export default new axios();
