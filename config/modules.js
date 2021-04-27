@@ -58,7 +58,6 @@ function getWebpackAliases(options = {}) {
 
   return {
     src: paths.appSrc,
-    'math-he': paths.mathHe,
     'request-he': paths.requestHe
   };
 }
