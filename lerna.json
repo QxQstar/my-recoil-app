@@ -3,10 +3,14 @@
     "packages/*"
   ],
   "npmClient": "yarn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "command": {
     "publish": {
-      "ignoreChanges": [".gitignore", "*.lock", "*.md"],
+      "ignoreChanges": [
+        ".gitignore",
+        "*.lock",
+        "*.md"
+      ],
       "message": "chore(release): publish %s"
     }
   }
