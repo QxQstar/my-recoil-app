@@ -1,6 +1,6 @@
 {
   "name": "my-recoil-app",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
