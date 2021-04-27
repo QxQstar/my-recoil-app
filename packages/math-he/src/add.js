@@ -3,5 +3,5 @@ export function addNum (a,b) {
 }
 
 export function addStr (a, b) {
-    return a + b + 'ststst';
+    return a + b + '';
 }
