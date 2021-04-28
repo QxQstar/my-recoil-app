@@ -1,6 +1,6 @@
 {
   "name": "request-he",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "网络请求",
   "main": "index.js",
   "author": "heyu",
