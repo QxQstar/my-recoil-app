@@ -9,5 +9,5 @@ export function addStr (a, b) {
 export function addArr(arr) {
     return arr.reduce((a, b) => {
         return a + b;
-    }, 0)
+    })
 }

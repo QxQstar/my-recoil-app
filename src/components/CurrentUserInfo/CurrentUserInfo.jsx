@@ -6,7 +6,7 @@ import { searchedName, userNameQuery } from './atom'
 import request from '../../../packages/request-he';
 
 export default function CurrentUserInfo() {
-    const [keyword, setKeyword] = useState('');
+    const [keyword, setKeyword] = useState('default');
     const [name,setName] = useRecoilState(searchedName)
     const userNameLoadable = useRecoilValueLoadable(userNameQuery(name));
     const onOk = () => {
