@@ -1,6 +1,6 @@
 {
   "name": "request-he",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "网络请求",
   "main": "index.js",
   "author": "heyu",
@@ -8,7 +8,7 @@
   "dependencies": {
     "axios": "0.21.1",
     "lodash": "^4.1.2",
-    "math-he": "^2.0.1"
+    "math-he": "^2.0.2"
   },
   "devDependencies": {
     "commder": "^1.0.0"
