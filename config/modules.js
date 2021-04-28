@@ -57,8 +57,7 @@ function getAdditionalModulePaths(options = {}) {
 function getWebpackAliases(options = {}) {
 
   return {
-    src: paths.appSrc,
-    'request-he': paths.requestHe
+    src: paths.appSrc
   };
 }
 
