@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import { PixiStage } from './components/startPixi';
+import { SpritePixi } from './components/startPixi';
 
 function App() {
   return (
     <div className="App">
-      <PixiStage/>
+      <SpritePixi/>
     </div>
   );
 }
