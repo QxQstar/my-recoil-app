@@ -1,17 +1,11 @@
 import './App.css';
 import React from 'react';
-import {
-  RecoilRoot
-} from 'recoil';
-
-import CurrentUserInfo from './components/CurrentUserInfo/CurrentUserInfo'
+import { PixiStage } from './components/startPixi';
 
 function App() {
   return (
     <div className="App">
-      <RecoilRoot>
-        <CurrentUserInfo/>
-      </RecoilRoot>
+      <PixiStage/>
     </div>
   );
 }
