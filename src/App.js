@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import { GeometryPixi } from './components/startPixi';
+import { CollisionPixi } from './components/startPixi';
 
 function App() {
   return (
     <div className="App">
-      <GeometryPixi/>
+      <CollisionPixi/>
     </div>
   );
 }

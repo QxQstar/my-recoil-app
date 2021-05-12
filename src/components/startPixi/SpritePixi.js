@@ -5,12 +5,10 @@ import { keyboard } from '../../utils';
 
 export default function SpritePixi() {
     const ref = useRef(null)
-    const back = useRef(false);
 
     const left = keyboard(37);
     const up = keyboard(38);
     const right = keyboard(39);
-    const down = keyboard(40);
 
     const setFullScren = function (app) {
         app.renderer.resize(window.innerWidth, window.innerHeight);
