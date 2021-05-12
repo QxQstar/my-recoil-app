@@ -1,20 +1,60 @@
 {"frames": {
 
+"biscuit.png":
+{
+	"frame": {"x":432,"y":1,"w":246,"h":134},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":4,"w":246,"h":134},
+	"sourceSize": {"w":250,"h":139}
+},
 "cloud_4.png":
 {
-	"frame": {"x":163,"y":1,"w":97,"h":56},
-	"rotated": true,
+	"frame": {"x":730,"y":156,"w":97,"h":56},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":13,"w":97,"h":56},
 	"sourceSize": {"w":100,"h":100}
 },
+"cover_46.png":
+{
+	"frame": {"x":1,"y":1,"w":250,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":250},
+	"sourceSize": {"w":250,"h":250}
+},
+"dice_1.png":
+{
+	"frame": {"x":730,"y":1,"w":153,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":52,"w":153,"h":153},
+	"sourceSize": {"w":250,"h":250}
+},
+"gold_dice.png":
+{
+	"frame": {"x":885,"y":1,"w":153,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":52,"w":153,"h":153},
+	"sourceSize": {"w":250,"h":250}
+},
 "ico-blue-big.png":
 {
-	"frame": {"x":1,"y":1,"w":160,"h":236},
+	"frame": {"x":568,"y":1,"w":160,"h":236},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":45,"y":14,"w":160,"h":236},
 	"sourceSize": {"w":250,"h":250}
+},
+"summon-thunder-t.png":
+{
+	"frame": {"x":253,"y":1,"w":177,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":250},
+	"sourceSize": {"w":177,"h":250}
 }},
 "animations": {
 },
@@ -23,8 +63,8 @@
 	"version": "1.0",
 	"image": "xuebi.png",
 	"format": "RGBA8888",
-	"size": {"w":220,"h":238},
+	"size": {"w":1039,"h":252},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:f176edc57a1aaa03d9c5d04eef5d2af1:2cad87157deebdb5c910be25b5eaeeff:2d740dd6223b2c89f70b5c95c4a952f7$"
+	"smartupdate": "$TexturePacker:SmartUpdate:fa4431677940490fb218270f834b76ed:0c1e3d1551da7da1945e1ec29e738c1e:2d740dd6223b2c89f70b5c95c4a952f7$"
 }
 }
