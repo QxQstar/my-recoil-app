@@ -59,8 +59,8 @@ export default function CollisionPixi() {
         const blueCenterX = blue.x + blue.width / 2;
         const blueCenterY = blue.y + blue.height / 2;
 
-        if (Math.abs(boxCenterX - blueCenterX) < box.width / 2 + blue.width / 2
-        && Math.abs(boxCenterY - blueCenterY) < box.height / 2 + blue.height / 2
+        if (Math.abs(boxCenterX - blueCenterX) < (box.width / 2 + blue.width / 2)
+        && Math.abs(boxCenterY - blueCenterY) < (box.height / 2 + blue.height / 2)
         ) {
 
             box.tint = 0xff3300
