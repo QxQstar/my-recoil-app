@@ -32,7 +32,6 @@ export function DrawLine() {
             scene.add(line)
 
             // load font
-
             const loader = new THREE.FontLoader();
             loader.load('/fonts/helvetiker_bold.typeface.json', function(font) {
                 const textGeo = new THREE.TextGeometry( 'Hi Three.js', {
