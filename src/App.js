@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import { LoadModel } from './components/startThree';
+import { ReactRndDemo } from './components/ReactRndDemo';
 
 function App() {
   return (
     <div className="App">
-      <LoadModel/>
+      <ReactRndDemo/>
     </div>
   );
 }
