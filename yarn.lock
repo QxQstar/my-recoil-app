@@ -11414,7 +11414,7 @@ regenerate@^1.4.0:
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
 
-regenerator-runtime@^0.11.0:
+regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
@@ -13430,6 +13430,13 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+videocontext@^0.54.0:
+  version "0.54.0"
+  resolved "http://npm-registry.qunhequnhe.com/videocontext/download/videocontext-0.54.0.tgz#15b0dcf6506832f21587726436628f1885ee50bf"
+  integrity sha1-FbDc9lBoMvIVh3JkNmKPGIXuUL8=
+  dependencies:
+    regenerator-runtime "^0.11.1"
 
 vm-browserify@^1.0.1:
   version "1.1.2"

@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import { ReactRndDemo } from './components/ReactRndDemo';
+import {ImgPlayer} from './components/ImgPlayer'
 
 function App() {
   return (
     <div className="App">
-      <ReactRndDemo/>
+      <ImgPlayer/>
     </div>
   );
 }
